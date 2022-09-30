@@ -1,0 +1,132 @@
+.türbe {
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+
+.hilal {
+    width: 20px;
+    height: 20px;
+    margin: -20px 0px 0px 330px;
+    background: #999;
+    border-radius: 20px;
+}
+
+.hilalic {
+    width: 22px;
+    height: 15px;
+    background: #FFF;
+    border-radius: 10px;
+    margin: 0px 0px 0px -1px;
+}
+
+.tutancubuk {
+    width: 3px;
+    height: 10px;
+    background: #999;
+    border-radius: 10px;
+    margin: 0px 0px 0px 9px;
+}
+
+.türbebası {
+    width: 500px;
+    height: 200px;
+    background: #999;
+    border-radius: 200px 200px 0px 0px;
+    margin: 5px 0px 0px 100px;
+    border: 1px solid #000;
+}
+
+.türbepencereleri {
+    width: 550px;
+    height: 62px;
+    background: rgb(218, 218, 218);
+    margin: auto;
+    padding: 38px 0px 0px 0px;
+    border: 1px solid #000;
+}
+
+.türbepenceresi1 {
+    width: 40px;
+    height: 60px;
+    background: #FFF;
+    margin: 0px 0px 0px 100px;
+    border: 1px solid #000;
+    float: left;
+}
+
+.türbedısı {
+    width: 550px;
+    height: 130px;
+    background: #2a85b2;
+    margin: auto;
+    padding: 38px 0px 0px 0px;
+    border: 1px solid #000;
+}
+
+.düzenleme1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    margin: 50px 0px 0px 90px;
+    border-top: 25px solid rgb(202, 202, 202);
+    border-left: 25px solid rgb(202, 202, 202);
+    border-right: 25px solid rgb(202, 202, 202);
+    border-bottom: 25px solid rgb(202, 202, 202);
+}
+
+.giris {
+    width: 550px;
+    height: 550px;
+    margin: 0px 0px 0px 75px;
+    background: rgb(202, 202, 202);
+    border: 1px solid #000;
+}
+
+.basamak {
+    width: 580px;
+    height: 100px;
+    margin: 0px 0px 0px 60px;
+    background: rgb(221, 221, 221);
+    border: 1px solid #000;
+}
+
+.girisdüzeni1 {
+    width: 420px;
+    height: 530px;
+    margin: 20px 0px 0px 55px;
+    background: #FFF;
+    border: 1px solid #000
+}
+
+.girisdüzeni2 {
+    width: 400px;
+    height: 510px;
+    margin: 10px 0px 0px 10px;
+    background: #2a85b2;
+    border: 1px solid #000
+}
+
+.kapıüstü {
+    width: 150px;
+    height: 70px;
+    margin: 70px auto 0px auto;
+    background: #999;
+    border-bottom: 1px solid #000;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.kapı1 {
+    width: 75px;
+    height: 369px;
+    margin: 0px 200px 0px auto;
+    background: rgb(202, 202, 202);
+    border-right: 1px solid #000;
+}
+.kapı2 {
+    width: 75px;
+    height: 369px;
+    margin: -369px 200px 0px 200px;
+    background: rgb(202, 202, 202);
+    border-left: 1px solid #000;
+}

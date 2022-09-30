@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otobüs</title>
+    <style type="text/css">
+        .otobus {
+            width: 900px;
+            height: 900px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .anten {
+            width: 100px;
+            height: 0px;
+            border: 1px solid #000;
+            background: rgb(184, 184, 184);
+            margin: -540px 0px 0px 670px;
+            border-radius: 4px 4px 4px 4px;
+            transform: rotate(-50deg);
+        }
+
+        .disayna1 {
+            width: 39px;
+            height: 25px;
+            background: #c9f;
+            border-left: 1px solid #000;
+            border-right: 1px solid #000;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            margin: 0 0px 730px 460px;
+            margin-top: 324px;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        .disayna2 {
+            width: 39px;
+            height: 25px;
+            background: #c9f;
+            border-right: 1px solid #000;
+            border-left: 1px solid #000;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            margin: 0 901px;
+            margin-top: -757px;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        .tekerlek1 {
+            width: 70px;
+            height: 50px;
+            background: #000;
+            margin: 190px 0px 0px 535px;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        .tekerlek2 {
+            width: 70px;
+            height: 50px;
+            background: #000;
+            margin: -50px 0px 0px 800px;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        .otobusici {
+            width: 400px;
+            height: 500px;
+            border: 1px solid #000;
+            margin: 200px 0px 0px 500px;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        .icayna {
+            width: 80px;
+            height: 20px;
+            border: 1px solid #000;
+            background: rgb(184, 184, 184);
+            margin: 30px auto;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        .otobusonu {
+            width: 400px;
+            height: 160px;
+            border: 1px solid #000;
+            background: #c9f;
+            margin: 290px -1px;
+            border-radius: 0px 0px 4px 4px;
+            position: relative;
+            z-index: 3;
+        }
+
+        .koltuk1 {
+            width: 150px;
+            height: 160px;
+            border: 1px solid #000;
+            background: #90f;
+            margin: -613px 0px 0px 30px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .koltuk2 {
+            width: 150px;
+            height: 160px;
+            border: 1px solid #000;
+            background: #90f;
+            margin: -162px 0px 0px 220px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .silecek1 {
+            width: 150px;
+            height: 0px;
+            border: 1px solid #000;
+            background: #90f;
+            margin: -2px 0px 0px 210px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .silecek2 {
+            width: 150px;
+            height: 0px;
+            border: 1px solid #000;
+            background: #90f;
+            margin: -2px 0px 0px 40px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .dreksiyon {
+            width: 60px;
+            height: 30px;
+            border-top: 10px solid #000;
+            border-left: 10px solid #000;
+            border-right: 10px solid #000;
+            border-bottom: 10px solid #000;
+            margin: -30px 0px 0px 260px;
+            border-radius: 40px 40px 0px 0px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .ışık1 {
+            width: 50px;
+            height: 50px;
+            margin: 30px 0px 0px 30px;
+            background: #ff9;
+            border-radius: 50px 50px 50px 50px;
+            box-shadow: 5px 5px 5px 1px #f7d3ac, -5px -5px 10px #f7d3ac;
+        }
+
+        .ışık2 {
+            width: 50px;
+            height: 50px;
+            margin: -50px 0px 0px 300px;
+            background: #ff9;
+            border-radius: 50px 50px 50px 50px;
+            box-shadow: 5px 5px 5px #f7d3ac, -5px -5px 15px #f7d3ac;
+        }
+
+        .cizgi1 {
+            width: 80px;
+            height: 4px;
+            margin: -50px 0px 0px 150px;
+            background: #000;
+        }
+
+        .cizgi2 {
+            width: 90px;
+            height: 4px;
+            margin: 5px 0px 0px 145px;
+            background: #000;
+        }
+
+        .cizgi3 {
+            width: 100px;
+            height: 4px;
+            margin: 5px 0px 0px 140px;
+            background: #000;
+        }
+
+        .cizgi4 {
+            width: 110px;
+            height: 4px;
+            margin: 5px 0px 0px 135px;
+            background: #000;
+        }
+
+        .plakasol {
+            width: 15px;
+            height: 20px;
+            margin: 50px 0px 0px 130px;
+            background: #06f;
+            float: left;
+            font: 10px tohama;
+            color: #FFF;
+            text-align: center;
+        }
+
+        .plaka {
+            width: 105px;
+            height: 20px;
+            margin: 50px 0px 0px 0px;
+            background: #FFF;
+            float: left;
+            font: 15px tohama;
+            color: #000;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="otobus">
+        <div class="otobusici">
+            <div class="icayna"></div>
+            <div class="otobusonu">
+                <div class="ışık1"></div>
+                <div class="ışık2"></div>
+                <div class="cizgi1"></div>
+                <div class="cizgi2"></div>
+                <div class="cizgi3"></div>
+                <div class="cizgi4"></div>
+                <div class="plakasol">TR</div>
+                <div class="plaka">16 BJK 1903</div>
+
+            </div>
+            <div class="koltuk1"></div>
+            <div class="koltuk2"></div>
+            <div class="silecek2"></div>
+            <div class="silecek1"></div>
+            <div class="dreksiyon"></div>
+        </div>
+        <div class="anten"></div>
+        <div class="disayna1"></div>
+        <div class="disayna2"></div>
+        <div class="tekerlek1"></div>
+        <div class="tekerlek2"></div>
+    </div>
+
+</body>
+
+</html>
