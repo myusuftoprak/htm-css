@@ -1,0 +1,98 @@
+.şablon {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+}
+
+.banner {
+    width: 670px;
+    height: 50px;
+    background: #003466;
+    color: #FFF;
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 0px 0px 140px;
+}
+
+.sekmeler {
+    width: 150px;
+    height: 35px;
+    background: #00468c;
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
+    float: left;
+    text-decoration: none;
+}
+
+.sekmeler2 {
+    width: 150px;
+    height: 35px;
+    background: #00468c;
+    color: #FFF;
+    text-align: center;
+    margin: -50px 0px 0px 450px;
+    padding: 15px 0px 0px 0px;
+    float: left;
+    text-decoration: none;
+}
+
+.iç1 {
+    width: 810px;
+    height: 500px;
+    background: #016dd9;
+    color: #FFF;
+    text-align: center;
+    margin: 71px 0px 0px 0px;
+}
+
+.iç2 {
+    width: 270px;
+    height: 270px;
+    background: #4da6ff;
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    float: left;
+}
+
+.iç3 {
+    width: 270px;
+    height: 270px;
+    background: #99cdff;
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+    float: left;
+}
+
+.iç4 {
+    width: 250px;
+    height: 270px;
+    background: #bedffe;
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+    float: left;
+}
+
+.iç5 {
+    width: 810px;
+    height: 100px;
+    background: #bfeefe;
+    color: #FFF;
+    text-align: center;
+    margin: 290px 0px 0px 0px;
+}
+
+.sekmeler:hover {
+    text-decoration: underline;
+    background: #06f;
+}
+
+.sekmeler2:hover {
+    text-decoration: underline;
+    background: #06f;
+}
