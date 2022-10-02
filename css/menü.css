@@ -1,0 +1,175 @@
+.menüler {
+    width: 1200px;
+    height: 1000px;
+}
+
+.menü1 {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+}
+
+.menü1:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menü2 {
+    width: 220px;
+    height: 40px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    margin: 50px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    float: left;
+}
+
+.menü2:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+}
+
+.menü3 {
+    width: 170px;
+    height: 40px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    margin: 50px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    float: left;
+}
+
+.menü3:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+}
+
+.AnaSayfa {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: 250px 0px 0px 0px;
+    border: 1px solid rgb(151, 2, 2);
+    border-bottom: 5px solid rgb(151, 2, 2);
+}
+
+.AnaSayfa:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Hakkımızda {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid rgb(151, 2, 2);
+    border-bottom: 5px solid rgb(151, 2, 2);
+}
+
+.Hakkımızda:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Hizmetlerimiz {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid rgb(151, 2, 2);
+    border-bottom: 5px solid rgb(151, 2, 2);
+}
+
+.Hizmetlerimiz:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Referanslarımız {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid rgb(151, 2, 2);
+    border-bottom: 5px solid rgb(151, 2, 2);
+}
+
+.Referanslarımız:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.İletişim {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid rgb(151, 2, 2);
+    border-bottom: 5px solid rgb(151, 2, 2);
+}
+
+.Hakkımızda:hover {
+    background: rgb(151, 2, 2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.açılanmenü {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: -0px 0px 0px 0px;
+    border: 1px solid rgb(151, 2, 2);
+    border-bottom: 5px solid rgb(151, 2, 2);
+}
+
+.açılanmenü:hover {
+    width: 240px;
+    height: 50px;
+    background: rgb(243, 200, 200);
+    color: rgb(255, 0, 0);
+    font: 25px tohama;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: -67px 0px 0px 252px;
+    border: 1px solid rgb(151, 2, 2);
+    border-bottom: 5px solid rgb(151, 2, 2);
+}
